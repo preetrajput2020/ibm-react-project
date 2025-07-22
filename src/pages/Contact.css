@@ -1,0 +1,135 @@
+/* src/components/Contact.css */
+
+.contact {
+  padding: 4rem 2rem;
+  background-color: #fdfaf6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #5e3c2b;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.section__title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #c99856;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.contact__info {
+  flex: 1 1 300px;
+}
+
+.contact__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #3f2a1c;
+}
+
+.contact__details {
+  font-size: 1rem;
+  color: #6b4e3d;
+  line-height: 1.6;
+}
+
+.contact__form {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeIn 1.2s ease;
+}
+
+.contact__form-div {
+  position: relative;
+}
+
+.contact__form-input,
+.contact__form-input:focus {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d8c4aa;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #4a3628;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.contact__form-input:focus {
+  border-color: #c99856;
+  box-shadow: 0 0 5px rgba(201, 152, 86, 0.5);
+}
+
+.contact__form-area textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.btn {
+  background-color: #c99856;
+  color: white;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.btn:hover {
+  background-color: #a8733c;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .contact__title {
+    text-align: center;
+  }
+
+  .contact__form {
+    align-items: center;
+  }
+
+  .btn {
+    align-self: center;
+  }
+}
