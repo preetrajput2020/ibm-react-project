@@ -1,7 +1,7 @@
 import React from "react";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../Productcard/Productcard";
 import products from "../../data/products";
-import "./ProductList.css";
+import "./Productlist.css";
 
 const ProductList = () => {
   return (
