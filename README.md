@@ -1,12 +1,27 @@
-# React + Vite
+# GrameenKala – Empowering Rural Artisans 🧵🪔
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GrameenKala is a handcrafted product showcase platform built using **React + Vite**. It promotes and celebrates traditional Indian craftsmanship by connecting rural artisans with digital marketplaces.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Beautiful Hero Section with a warm rural theme
+- Interactive Product Listings
+- About Section highlighting GrameenKala's mission
+- Contact Section with smooth scrolling navigation
+- Fully responsive and modern UI
+- Clean and organized component structure
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (with JSX)
+- **Vite** for lightning-fast dev environment
+- **CSS** (custom styling, responsive design)
+- **ESLint** and modern JavaScript standards
+
+## 📦 Installation & Running Locally
+
+```bash
+git clone https://github.com/your-username/grameenkala.git
+cd grameenkala
+npm install
+npm run dev
