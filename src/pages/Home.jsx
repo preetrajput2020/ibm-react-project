@@ -2,7 +2,7 @@ import React from "react";
 import ProductList from "../components/Productlist/Productlist";
 import Contact from "../pages/Contact";
 import About from "../pages/About"; // ✅ Import About
-import "./home.css";
+import "./Home.css";
 
 const Home = () => {
   return (
