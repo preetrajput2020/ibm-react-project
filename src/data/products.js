@@ -39,7 +39,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Blue Pottery Bowl",
+    name: "Pottery Bowl",
     image: bowl,
     artisan: "Iqbal Hussain – Jaipur, Rajasthan",
     story: "Handcrafted using the famous Persian-origin Jaipur blue pottery."
